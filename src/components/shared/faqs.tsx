@@ -1,12 +1,11 @@
 import {FC} from "react";
 
 interface Props {
-    className?: string;
     description: string;
     question : string;
 }
 
-export const Faqs: FC<Props> = ({className,question,description}) => {
+export const Faqs: FC<Props> = ({question,description}) => {
     return (
         <div>
             <hr className='mb-5 opacity-90'/>

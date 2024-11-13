@@ -1,15 +1,10 @@
-import {FC, useState, useEffect} from "react";
 import {Title} from "@/components/shared/title.tsx";
 import {Button} from "@/components/ui/button.tsx";
-import {ChevronDown} from "lucide-react";
 import {Card} from "@/components/shared/card.tsx";
 import {Faqs} from "@/components/shared/faqs.tsx";
 
-interface Props {
-    className?: string;
-}
 
-export const MainBlock: FC<Props> = ({className}) => {
+export const MainBlock = () => {
     // const [isScrolled, setIsScrolled] = useState(false);
     //
     // // Используем useEffect для отслеживания прокрутки
