@@ -81,7 +81,7 @@ export const MainBlock = () => {
                     </div>
                     <div className='ml-5 mt-8'>
                         <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg"
-                             xmlns:xlink="http://www.w3.org/1999/xlink">
+                             xlinkHref="http://www.w3.org/1999/xlink">
                             <rect x="0.59375" y="0.640625" width="56" height="56" fill="url(#pattern0_1_206)"/>
                             <defs>
                                 <pattern id="pattern0_1_206" patternContentUnits="objectBoundingBox" width="1"
